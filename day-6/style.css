@@ -1,0 +1,34 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
