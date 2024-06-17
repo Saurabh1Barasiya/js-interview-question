@@ -2,6 +2,7 @@
 // filter method always return a new array based on a condition.
 // in a new array. it contains all value where the condition gives you true value.
 // its also a higher order function .
+// it will not affect original array. 
 
 // thoes function wich take a function as an input or return a new function are called higher order function.
 
