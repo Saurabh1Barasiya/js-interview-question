@@ -2,6 +2,8 @@
 // existing array ke base par.
 // map function array ke har 1 element par apply ho jata hai.
 
+// map is always return a new array.
+
 // map is also a higher order function....
 
 // higher order function are thoes function wich takes function as an input
