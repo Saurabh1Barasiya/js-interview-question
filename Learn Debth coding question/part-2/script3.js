@@ -7,7 +7,7 @@ const p1 = new Promise(resolve => setTimeout(resolve, 100, 'One'));
 const p2 = new Promise(resolve => setTimeout(resolve, 200, 'Two'));
 
 Promise.race([p1, p2])
-  .then(result => console.log(result)); // 'One', kyunki pehle woh resolve hua.
+.then(result => console.log(result)); // 'One', kyunki pehle woh resolve hua.
 
 
 // Difference: Promise.race() jo pehle promise complete ho uska result dega, chahe wo resolve ho ya reject.
