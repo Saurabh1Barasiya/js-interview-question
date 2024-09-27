@@ -29,3 +29,4 @@ Promise.allSettled([p1, p2, p3])
 // Fulfilled (resolved) promises ka result status: "fulfilled" ke saath aayega.
 // Rejected promises ka result status: "rejected" aur reason ke saath aayega.
 // Aapko har promise ka status pata chalega bina reject hone ka tension liye, kyunki Promise.allSettled() kabhi fail nahi hota.
+// done.
