@@ -8,7 +8,7 @@ const p3 = Promise.resolve(30);
 
 Promise.allSettled([p1, p2, p3])
   .then(results => console.log(results));
-  
+
 // Output: [
 //   { status: 'fulfilled', value: 10 },
 //   { status: 'rejected', reason: 'Error in p2' },
@@ -19,3 +19,13 @@ Promise.allSettled([p1, p2, p3])
 // Difference: Promise.allSettled() saare promises ka result dega, chahe resolve ho ya reject. Kabhi reject nahi karega.
 
 // If you want to know the status.
+
+
+
+// Promise.allSettled() ka matlab hota hai ki aapko saare promises ka final status pata chalega, chahe wo resolve ho ya reject.
+
+// Yeh method har ek promise ke baare mein detail return karta hai:
+
+// Fulfilled (resolved) promises ka result status: "fulfilled" ke saath aayega.
+// Rejected promises ka result status: "rejected" aur reason ke saath aayega.
+// Aapko har promise ka status pata chalega bina reject hone ka tension liye, kyunki Promise.allSettled() kabhi fail nahi hota.
