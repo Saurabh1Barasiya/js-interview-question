@@ -9,10 +9,15 @@ function secoundLargest(myArr){
         if(maxEl < ele){
             secMaxEl = maxEl;
             maxEl = ele;
+        }else if(secMaxEl < ele){
+            secMaxEl = ele;
         }
     }
+    return secMaxEl;
 }
 
 
 const arr = [10,20,30,4,5,6];
-secoundLargest(arr);
+console.log("Secound maximum element : ",secoundLargest(arr));  //  20
+const arr1 = [10,20,60,40,5];
+console.log("Secound maximum element : ",secoundLargest(arr1));  // 40
