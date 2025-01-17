@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    --primary-color:red;
+    --primary-font-size:20px;
+    --padding-default:20px;
+    --default-radius:50%;
+}
+
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: var(--primary-color);
+    padding: var(--padding-default);
+    border-radius: var(--default-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:hover{
+    font-size: calc(var(--primary-font-size)*2);
+}
