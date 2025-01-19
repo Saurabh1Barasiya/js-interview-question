@@ -1,0 +1,13 @@
+div{
+    margin: 10px;
+}
+
+p{
+    font-size: 25px;
+    padding: 10px;
+}
+
+h1::after{
+    content: "👇👇👇";
+    margin-left: 20px;
+}
