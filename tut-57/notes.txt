@@ -1,0 +1,8 @@
+// empty array par forEach and for-of and for-in loop kaam nahi karega.
+
+
+
+
+// Agar starting index end se bada ho, to method indexes ko automatically swap kar deta hai.
+let str3 = "Angular";
+console.log(str3.substring(4, 1)); // Output: "ngu" (indexes are swapped to 1, 4)
