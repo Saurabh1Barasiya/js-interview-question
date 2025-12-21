@@ -1,4 +1,4 @@
-// find secound minimum element in array.
+// find secound minimum element in an array.
 
 let numberArray = [10, 20, 30, 4, 2, 5, 4, 63, 1, 5];
 let minimum = Number.MAX_SAFE_INTEGER;
