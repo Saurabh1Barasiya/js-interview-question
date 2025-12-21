@@ -14,4 +14,4 @@ function convert(newString){
 let mystr = "abc";
 ans = convert(mystr);
 console.log(ans);  //[ 'a', 'ab', 'abc', 'b', 'bc', 'c' ]
-console.log(ans.join(' '));  //[ 'a', 'ab', 'abc', 'b', 'bc', 'c' ]
+console.log(ans.join(' '));  // 'a', 'ab', 'abc', 'b', 'bc', 'c' 
