@@ -1,6 +1,7 @@
 // find secound minimum element in an array.
 
-let numberArray = [10, 20, 30, 4, 2, 5, 4, 63, 1, 5];
+// let numberArray = [10, 20, 30, 4, 2, 5, 4, 63, 1, 5];
+let numberArray = [1,1,2,3];
 let minimum = Number.MAX_SAFE_INTEGER;
 let secoundMinimum = minimum;
 
@@ -8,7 +9,7 @@ for (let element of numberArray) {
     if (element < minimum) {
         secoundMinimum = minimum;
         minimum = element
-    } else if(element < secoundMinimum){
+    } else if(element < secoundMinimum && element > minimum){
         secoundMinimum = element;
     }
 }
